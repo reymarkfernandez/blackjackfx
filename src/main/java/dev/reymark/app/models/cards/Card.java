@@ -64,7 +64,7 @@ public class Card {
             this.display = display;
         };
 
-        public Integer value() {
+        public Integer toInt() {
             return value;
         }
 
